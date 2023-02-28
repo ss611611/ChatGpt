@@ -4,6 +4,7 @@ import SideBar from "../components/SideBar";
 import "../styles/globals.css";
 import { getServerSession } from "next-auth";
 import { authOptions } from "../pages/api/auth/[...nextauth]";
+import Login from "../components/Login";
 
 export const metadata = {
   title: "ChatGPT Clone",
