@@ -1,11 +1,22 @@
-import React, { Component } from 'react'
+import NewChat from "./NewChat";
 
-export class SideBar extends Component {
-  render() {
-    return (
-      <div>SideBar</div>
-    )
-  }
+ function SideBar() {
+  return (
+    <div className="p-2 fiex flex-col h-screen">
+        <div className="fiex-1">
+            <div>
+                <NewChat />
+
+                <div>
+                    {/* ModelSelection */}
+                </div>
+
+                {/* Map through the ChatRows */}
+
+            </div>
+        </div>
+    </div>
+  );
 }
 
-export default SideBar
+export default SideBar;
