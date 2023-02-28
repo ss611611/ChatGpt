@@ -3,7 +3,7 @@ import { BoltIcon, ExclamationTriangleIcon, SunIcon } from '@heroicons/react/24/
 
 function HomePage() {
 
-    function renderExample1(){
+    function renderExample(){
         return(
             <div>
                 <div className='flex flex-col items-center justify-center mb-5'>
@@ -24,7 +24,7 @@ function HomePage() {
         )
     }
 
-    function renderExample2(){
+    function renderCapabilities(){
         return(
             <div>
                 <div className='flex flex-col items-center justify-center mb-5'>
@@ -46,7 +46,7 @@ function HomePage() {
           )
     }
 
-    function renderExample3(){
+    function renderLimitaions(){
         return(
             <div>
                 <div className='flex flex-col items-center justify-center mb-5'>
@@ -77,9 +77,9 @@ function HomePage() {
         <h1 className="text-5xl font-bold mb-20">ChatGPT</h1>
 
         <div className='flex space-x-2 text-center'>
-            {renderExample1()}
-            {renderExample2()}
-            {renderExample3()}
+            {renderExample()}
+            {renderCapabilities()}
+            {renderLimitaions()}
         </div>
     </div>
   );
