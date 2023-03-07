@@ -7,5 +7,6 @@ export default function ClientProvider() {
     <>
         <Toaster position="top-right" />
     </>
+    
   );
 }

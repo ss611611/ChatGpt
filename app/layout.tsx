@@ -1,4 +1,3 @@
-import { Session } from "inspector";
 import { SessionProvider } from "../components/SessionProvider";
 import SideBar from "../components/SideBar";
 import "../styles/globals.css";
